@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportstream365</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="head-wrap">
+                <h1><a href="index.html"><img src="images/logo-365.svg" alt="Sportstream365"></a></h1>
+                <nav>
+                    <button class="mob-menu"><span></span></button>
+                    <ul class="menu">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#partners">Partners</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li class="contact"><a href="#contact">Contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner">
+            <div class="container">
+                <h2>Live <span>Streaming</span></h2>
+                <p>All sporting events live</p>
+                <button class="primary-btn">Learn more</button>
+            </div>
+        </div>
+        <section id="#features" class="features">
+            <div class="container">
+                <h3>Our Features</h3>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="features-block">
+                            <figure><img src="images/latency-icon.svg"></figure>
+                            <h4><strong>Latencies</strong> are less than <strong>2 sec</strong></h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="features-block">
+                            <figure><img src="images/events-icon.svg"></figure>
+                            <h4>We provide up to<strong>40,000</strong> <strong>events</strong>per month for <strong>15 sports</strong></h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="features-block">
+                            <figure><img src="images/customizable-icon.svg"></figure>
+                            <h4><strong>Customizable</strong> player format and in html5 and flash mode.</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="features-block">
+                            <figure><img src="images/support-icon.svg"></figure>
+                            <h4>Management and support panel <strong>h24 365 days</strong></h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="features-block">
+                            <figure><img src="images/price-icon.svg"></figure>
+                            <h4>Customized <strong>pricing plan</strong> for provider, site or agent</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="features-block-empty">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="#partners" class="partners">
+            <div class="container">
+                <h3>Our Partners</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum eget purus massa eget faucibus pellentesque. Id sed elementum viverra risus.</p>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <figure class="partners-block"><img src="images/logo-1.png"></figure>
+                    </div>
+                    <div class="col-sm-2">
+                        <figure class="partners-block"><img src="images/logo-2.png"></figure>
+                    </div>
+                    <div class="col-sm-2">
+                        <figure class="partners-block"><img src="images/logo-3.png"></figure>
+                    </div>
+                    <div class="col-sm-2">
+                        <figure class="partners-block"><img src="images/logo-4.png"></figure>
+                    </div>
+                    <div class="col-sm-2">
+                        <figure class="partners-block"><img src="images/logo-5.png"></figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="#contact" class="contact">
+            <div class="container">
+                <h3>Have a question?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum eget purus massa eget faucibus pellentesque. Id sed elementum viverra risus.</p>
+                <form>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <input type="text" placeholder="Name" class="form-filed">
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" placeholder="Email" class="form-filed">
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" placeholder="Phone Number" class="form-filed">
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" placeholder="Message" class="form-filed">
+                        </div>
+                        <div class="col-sm-12">
+                            <button class="primary-btn">Contact us</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h1><a href="index.html"><img src="images/logo-365.svg" alt="Sportstream365"></a></h1>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="contact"><a href="#contact">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="contact-info">
+            <p>+ 11 111111111 <i><img src="images/phone-icon.svg"></i></p>
+            <p><a href="mailto:sportstream365@gmail.com">sportstream365@gmail.com</a><i><img src="images/mail-icon.svg"></i></p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script>
+            $(".mob-menu").click(function(){
+                $(".menu").toggleClass("expand");
+            });
+    </script>
+
+</body>
+</html>
